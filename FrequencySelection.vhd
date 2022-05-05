@@ -6,10 +6,10 @@
 -- För styrsignalerna gäller följande:
 --
 -- switch[1:0]       Frekvens
---     00                1 Hz
---     01                2 Hz
---     10                4 Hz
---     11                8 Hz
+--     00               1 Hz
+--     01               2 Hz
+--     10               4 Hz
+--     11               8 Hz
 --
 -- Utsignal frequency utgörs av aktuell frekvens.
 -------------------------------------------------------------------------------------------------------
