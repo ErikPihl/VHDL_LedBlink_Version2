@@ -21,8 +21,8 @@ use work.definitions.all;
 entity FrequencySelection is
    port
    (
-	   clock   : in std_logic;                      -- 50 MHz klocka.
-      reset_n : in std_logic;                      -- Asynkron inverterande reset-signal.
+      clock     : in std_logic;                    -- 50 MHz klocka.
+      reset_n   : in std_logic;                    -- Asynkron inverterande reset-signal.
       switch    : in std_logic_vector(1 downto 0); -- Styrsignaler för val av frekvens.
       frequency : out frequency_t                  -- Utsignal, indikerar vald frekvens.
    );
